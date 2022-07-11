@@ -6,7 +6,7 @@ import UnderConstruction from './routes/UnderConstruction';
 function App() {
   return (
     <Router>
-      <main className='m-auto flex flex-col  items-center w-screen h-screen'>
+      <main className='m-auto flex flex-col  items-center w-screen h-screen bg-zwhite-100'>
         <Routes>
           <Route path='/' element={<Home />}></Route>
           <Route path='/status' element={<UnderConstruction />}></Route>

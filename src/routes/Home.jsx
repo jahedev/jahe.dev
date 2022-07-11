@@ -2,8 +2,8 @@ import Navbar from '../components/navbar/Navbar';
 
 export default function Home() {
   return (
-    <div className='max-w-screen-lg flex flex-col w-full h-full'>
-      <div className='flex flex-col w-full h-full bg-white'>
+    <div className='max-w-screen-lg  flex flex-col w-full h-full'>
+      <div className='flex flex-col w-full h-full'>
         <Navbar />
         <div className='flex w-full h-3/5 justify-around items-center font-["Josefin_Sans"]'>
           <div className='flex flex-col'>
